@@ -1,0 +1,3 @@
+All employees must comply with ISO 27001 security standards.
+Access to enterprise data is governed by role-based access control.
+Any data breach must be reported to the Information Security Office within 4 hours.

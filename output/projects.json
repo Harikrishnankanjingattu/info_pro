@@ -1,0 +1,1002 @@
+[
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-418f5d49",
+    "attributes": {
+      "project_id": "PRJ001",
+      "project_name": "Enterprise AI Deployment 1",
+      "product_name": "InsightAI Platform 2",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129835+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-9ee4dbec",
+    "attributes": {
+      "project_id": "PRJ002",
+      "project_name": "Enterprise AI Deployment 2",
+      "product_name": "InsightAI Platform 3",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129860+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-a421a455",
+    "attributes": {
+      "project_id": "PRJ003",
+      "project_name": "Enterprise AI Deployment 3",
+      "product_name": "InsightAI Platform 4",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129870+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-cc02cde1",
+    "attributes": {
+      "project_id": "PRJ004",
+      "project_name": "Enterprise AI Deployment 4",
+      "product_name": "InsightAI Platform 5",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129881+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-ab2bc14b",
+    "attributes": {
+      "project_id": "PRJ005",
+      "project_name": "Enterprise AI Deployment 5",
+      "product_name": "InsightAI Platform 6",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129888+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-3f299268",
+    "attributes": {
+      "project_id": "PRJ006",
+      "project_name": "Enterprise AI Deployment 6",
+      "product_name": "InsightAI Platform 7",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129894+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-a5cdc37e",
+    "attributes": {
+      "project_id": "PRJ007",
+      "project_name": "Enterprise AI Deployment 7",
+      "product_name": "InsightAI Platform 8",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129901+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-a8fef277",
+    "attributes": {
+      "project_id": "PRJ008",
+      "project_name": "Enterprise AI Deployment 8",
+      "product_name": "InsightAI Platform 9",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129917+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-d6187dbf",
+    "attributes": {
+      "project_id": "PRJ009",
+      "project_name": "Enterprise AI Deployment 9",
+      "product_name": "InsightAI Platform 10",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129924+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-9a1f3463",
+    "attributes": {
+      "project_id": "PRJ010",
+      "project_name": "Enterprise AI Deployment 10",
+      "product_name": "InsightAI Platform 11",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129931+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-a771aa28",
+    "attributes": {
+      "project_id": "PRJ011",
+      "project_name": "Enterprise AI Deployment 11",
+      "product_name": "InsightAI Platform 12",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129938+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-9a5d4f76",
+    "attributes": {
+      "project_id": "PRJ012",
+      "project_name": "Enterprise AI Deployment 12",
+      "product_name": "InsightAI Platform 13",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129946+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-eefbd375",
+    "attributes": {
+      "project_id": "PRJ013",
+      "project_name": "Enterprise AI Deployment 13",
+      "product_name": "InsightAI Platform 14",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129986+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-f7f9df88",
+    "attributes": {
+      "project_id": "PRJ014",
+      "project_name": "Enterprise AI Deployment 14",
+      "product_name": "InsightAI Platform 15",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.129996+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-ff14fe66",
+    "attributes": {
+      "project_id": "PRJ015",
+      "project_name": "Enterprise AI Deployment 15",
+      "product_name": "InsightAI Platform 16",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130003+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-7310d9d1",
+    "attributes": {
+      "project_id": "PRJ016",
+      "project_name": "Enterprise AI Deployment 16",
+      "product_name": "InsightAI Platform 17",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130011+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-f22b54e2",
+    "attributes": {
+      "project_id": "PRJ017",
+      "project_name": "Enterprise AI Deployment 17",
+      "product_name": "InsightAI Platform 18",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130018+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-77613f07",
+    "attributes": {
+      "project_id": "PRJ018",
+      "project_name": "Enterprise AI Deployment 18",
+      "product_name": "InsightAI Platform 19",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130026+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-546f3cfb",
+    "attributes": {
+      "project_id": "PRJ019",
+      "project_name": "Enterprise AI Deployment 19",
+      "product_name": "InsightAI Platform 20",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130033+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-d65e3b4a",
+    "attributes": {
+      "project_id": "PRJ020",
+      "project_name": "Enterprise AI Deployment 20",
+      "product_name": "InsightAI Platform 21",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130040+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-eb6fba8e",
+    "attributes": {
+      "project_id": "PRJ021",
+      "project_name": "Enterprise AI Deployment 21",
+      "product_name": "InsightAI Platform 22",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130050+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-4555a982",
+    "attributes": {
+      "project_id": "PRJ022",
+      "project_name": "Enterprise AI Deployment 22",
+      "product_name": "InsightAI Platform 23",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130056+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-efbd188d",
+    "attributes": {
+      "project_id": "PRJ023",
+      "project_name": "Enterprise AI Deployment 23",
+      "product_name": "InsightAI Platform 24",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130063+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-a32001fc",
+    "attributes": {
+      "project_id": "PRJ024",
+      "project_name": "Enterprise AI Deployment 24",
+      "product_name": "InsightAI Platform 25",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130069+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-94f05750",
+    "attributes": {
+      "project_id": "PRJ025",
+      "project_name": "Enterprise AI Deployment 25",
+      "product_name": "InsightAI Platform 26",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130076+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-0d38d453",
+    "attributes": {
+      "project_id": "PRJ026",
+      "project_name": "Enterprise AI Deployment 26",
+      "product_name": "InsightAI Platform 27",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130082+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-67da0c57",
+    "attributes": {
+      "project_id": "PRJ027",
+      "project_name": "Enterprise AI Deployment 27",
+      "product_name": "InsightAI Platform 28",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130089+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-5fb4f443",
+    "attributes": {
+      "project_id": "PRJ028",
+      "project_name": "Enterprise AI Deployment 28",
+      "product_name": "InsightAI Platform 29",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130095+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-2ec8b64c",
+    "attributes": {
+      "project_id": "PRJ029",
+      "project_name": "Enterprise AI Deployment 29",
+      "product_name": "InsightAI Platform 30",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130102+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-e8da881c",
+    "attributes": {
+      "project_id": "PRJ030",
+      "project_name": "Enterprise AI Deployment 30",
+      "product_name": "InsightAI Platform 31",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130109+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-28223493",
+    "attributes": {
+      "project_id": "PRJ031",
+      "project_name": "Enterprise AI Deployment 31",
+      "product_name": "InsightAI Platform 32",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130115+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-0d2313ae",
+    "attributes": {
+      "project_id": "PRJ032",
+      "project_name": "Enterprise AI Deployment 32",
+      "product_name": "InsightAI Platform 33",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130122+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-eec0f3f2",
+    "attributes": {
+      "project_id": "PRJ033",
+      "project_name": "Enterprise AI Deployment 33",
+      "product_name": "InsightAI Platform 34",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130128+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-19e93201",
+    "attributes": {
+      "project_id": "PRJ034",
+      "project_name": "Enterprise AI Deployment 34",
+      "product_name": "InsightAI Platform 35",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130134+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-0b1011eb",
+    "attributes": {
+      "project_id": "PRJ035",
+      "project_name": "Enterprise AI Deployment 35",
+      "product_name": "InsightAI Platform 36",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130141+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-a48bd319",
+    "attributes": {
+      "project_id": "PRJ036",
+      "project_name": "Enterprise AI Deployment 36",
+      "product_name": "InsightAI Platform 37",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130147+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-1794683d",
+    "attributes": {
+      "project_id": "PRJ037",
+      "project_name": "Enterprise AI Deployment 37",
+      "product_name": "InsightAI Platform 38",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130154+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-364ea10d",
+    "attributes": {
+      "project_id": "PRJ038",
+      "project_name": "Enterprise AI Deployment 38",
+      "product_name": "InsightAI Platform 39",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130160+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-904b6948",
+    "attributes": {
+      "project_id": "PRJ039",
+      "project_name": "Enterprise AI Deployment 39",
+      "product_name": "InsightAI Platform 40",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130166+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-799b1542",
+    "attributes": {
+      "project_id": "PRJ040",
+      "project_name": "Enterprise AI Deployment 40",
+      "product_name": "InsightAI Platform 41",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130173+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-b31d69e2",
+    "attributes": {
+      "project_id": "PRJ041",
+      "project_name": "Enterprise AI Deployment 41",
+      "product_name": "InsightAI Platform 42",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130179+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-eb523a8e",
+    "attributes": {
+      "project_id": "PRJ042",
+      "project_name": "Enterprise AI Deployment 42",
+      "product_name": "InsightAI Platform 43",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130186+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-8e777d76",
+    "attributes": {
+      "project_id": "PRJ043",
+      "project_name": "Enterprise AI Deployment 43",
+      "product_name": "InsightAI Platform 44",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130193+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-b70d0504",
+    "attributes": {
+      "project_id": "PRJ044",
+      "project_name": "Enterprise AI Deployment 44",
+      "product_name": "InsightAI Platform 45",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130200+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-0de02b80",
+    "attributes": {
+      "project_id": "PRJ045",
+      "project_name": "Enterprise AI Deployment 45",
+      "product_name": "InsightAI Platform 46",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130207+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-dde2fe21",
+    "attributes": {
+      "project_id": "PRJ046",
+      "project_name": "Enterprise AI Deployment 46",
+      "product_name": "InsightAI Platform 47",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130213+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-8f6d7bb7",
+    "attributes": {
+      "project_id": "PRJ047",
+      "project_name": "Enterprise AI Deployment 47",
+      "product_name": "InsightAI Platform 48",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130220+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-8c83cdc6",
+    "attributes": {
+      "project_id": "PRJ048",
+      "project_name": "Enterprise AI Deployment 48",
+      "product_name": "InsightAI Platform 49",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130227+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-e03d4bfa",
+    "attributes": {
+      "project_id": "PRJ049",
+      "project_name": "Enterprise AI Deployment 49",
+      "product_name": "InsightAI Platform 50",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "Completed"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130233+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "projects.csv",
+    "entity_type": "Project",
+    "entity_id": "PRO-afb62b40",
+    "attributes": {
+      "project_id": "PRJ050",
+      "project_name": "Enterprise AI Deployment 50",
+      "product_name": "InsightAI Platform 1",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "status": "On Hold"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.130240+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  }
+]

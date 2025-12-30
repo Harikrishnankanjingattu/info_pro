@@ -1,0 +1,8 @@
+Meeting: Enterprise AI Strategy Review
+Attendees: CTO, Head of Data Science, Sales Director
+Discussion:
+- Expansion of InsightAI into healthcare diagnostics
+- Client demand from Apollo Hospitals and Fortis Healthcare
+Action Items:
+- Prepare pilot deployment by Q4
+- Allocate additional GPU infrastructure

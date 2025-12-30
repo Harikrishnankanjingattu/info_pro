@@ -1,0 +1,902 @@
+[
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-04052e90",
+    "attributes": {
+      "asset_id": "A001",
+      "asset_type": "Laptop",
+      "location": "Hyderabad DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133535+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-ef628e3e",
+    "attributes": {
+      "asset_id": "A002",
+      "asset_type": "Firewall",
+      "location": "Mumbai Office",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133569+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-78ebe614",
+    "attributes": {
+      "asset_id": "A003",
+      "asset_type": "Router",
+      "location": "Bengaluru DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133580+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-5d79d48b",
+    "attributes": {
+      "asset_id": "A004",
+      "asset_type": "Server",
+      "location": "Hyderabad DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133587+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-6f34fe02",
+    "attributes": {
+      "asset_id": "A005",
+      "asset_type": "Laptop",
+      "location": "Mumbai Office",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133592+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-a2980b33",
+    "attributes": {
+      "asset_id": "A006",
+      "asset_type": "Firewall",
+      "location": "Bengaluru DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133598+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-7c499751",
+    "attributes": {
+      "asset_id": "A007",
+      "asset_type": "Router",
+      "location": "Hyderabad DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133604+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-530561d1",
+    "attributes": {
+      "asset_id": "A008",
+      "asset_type": "Server",
+      "location": "Mumbai Office",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133610+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-71fe81f8",
+    "attributes": {
+      "asset_id": "A009",
+      "asset_type": "Laptop",
+      "location": "Bengaluru DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133615+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-bb78280d",
+    "attributes": {
+      "asset_id": "A010",
+      "asset_type": "Firewall",
+      "location": "Hyderabad DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133621+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-4ef39735",
+    "attributes": {
+      "asset_id": "A011",
+      "asset_type": "Router",
+      "location": "Mumbai Office",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133627+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-03ea6882",
+    "attributes": {
+      "asset_id": "A012",
+      "asset_type": "Server",
+      "location": "Bengaluru DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133632+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-4d101a65",
+    "attributes": {
+      "asset_id": "A013",
+      "asset_type": "Laptop",
+      "location": "Hyderabad DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133638+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-4d896c31",
+    "attributes": {
+      "asset_id": "A014",
+      "asset_type": "Firewall",
+      "location": "Mumbai Office",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133643+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-ae06dc06",
+    "attributes": {
+      "asset_id": "A015",
+      "asset_type": "Router",
+      "location": "Bengaluru DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133649+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-7929be1e",
+    "attributes": {
+      "asset_id": "A016",
+      "asset_type": "Server",
+      "location": "Hyderabad DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133654+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-ba094b9e",
+    "attributes": {
+      "asset_id": "A017",
+      "asset_type": "Laptop",
+      "location": "Mumbai Office",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133660+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-04021990",
+    "attributes": {
+      "asset_id": "A018",
+      "asset_type": "Firewall",
+      "location": "Bengaluru DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133665+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-69c3d4b7",
+    "attributes": {
+      "asset_id": "A019",
+      "asset_type": "Router",
+      "location": "Hyderabad DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133671+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-57dbe7e5",
+    "attributes": {
+      "asset_id": "A020",
+      "asset_type": "Server",
+      "location": "Mumbai Office",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133676+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-5e636379",
+    "attributes": {
+      "asset_id": "A021",
+      "asset_type": "Laptop",
+      "location": "Bengaluru DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133682+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-8bef2b98",
+    "attributes": {
+      "asset_id": "A022",
+      "asset_type": "Firewall",
+      "location": "Hyderabad DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133687+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-da817fb1",
+    "attributes": {
+      "asset_id": "A023",
+      "asset_type": "Router",
+      "location": "Mumbai Office",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133693+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-71302266",
+    "attributes": {
+      "asset_id": "A024",
+      "asset_type": "Server",
+      "location": "Bengaluru DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133698+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-decd6916",
+    "attributes": {
+      "asset_id": "A025",
+      "asset_type": "Laptop",
+      "location": "Hyderabad DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133704+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-04b167f1",
+    "attributes": {
+      "asset_id": "A026",
+      "asset_type": "Firewall",
+      "location": "Mumbai Office",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133710+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-d12c2cee",
+    "attributes": {
+      "asset_id": "A027",
+      "asset_type": "Router",
+      "location": "Bengaluru DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133715+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-a395808b",
+    "attributes": {
+      "asset_id": "A028",
+      "asset_type": "Server",
+      "location": "Hyderabad DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133720+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-6af1fcec",
+    "attributes": {
+      "asset_id": "A029",
+      "asset_type": "Laptop",
+      "location": "Mumbai Office",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133726+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-da789244",
+    "attributes": {
+      "asset_id": "A030",
+      "asset_type": "Firewall",
+      "location": "Bengaluru DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133732+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-6f7dcb1e",
+    "attributes": {
+      "asset_id": "A031",
+      "asset_type": "Router",
+      "location": "Hyderabad DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133737+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-ed89eaba",
+    "attributes": {
+      "asset_id": "A032",
+      "asset_type": "Server",
+      "location": "Mumbai Office",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133750+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-87308bc1",
+    "attributes": {
+      "asset_id": "A033",
+      "asset_type": "Laptop",
+      "location": "Bengaluru DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133756+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-0c2f1d59",
+    "attributes": {
+      "asset_id": "A034",
+      "asset_type": "Firewall",
+      "location": "Hyderabad DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133762+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-cb1484a8",
+    "attributes": {
+      "asset_id": "A035",
+      "asset_type": "Router",
+      "location": "Mumbai Office",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133767+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-4a46250f",
+    "attributes": {
+      "asset_id": "A036",
+      "asset_type": "Server",
+      "location": "Bengaluru DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133773+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-0ef86bc4",
+    "attributes": {
+      "asset_id": "A037",
+      "asset_type": "Laptop",
+      "location": "Hyderabad DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133778+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-cc821e3a",
+    "attributes": {
+      "asset_id": "A038",
+      "asset_type": "Firewall",
+      "location": "Mumbai Office",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133783+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-5482d338",
+    "attributes": {
+      "asset_id": "A039",
+      "asset_type": "Router",
+      "location": "Bengaluru DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133789+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-f65265c8",
+    "attributes": {
+      "asset_id": "A040",
+      "asset_type": "Server",
+      "location": "Hyderabad DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133794+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-2074a3af",
+    "attributes": {
+      "asset_id": "A041",
+      "asset_type": "Laptop",
+      "location": "Mumbai Office",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133800+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-85939b78",
+    "attributes": {
+      "asset_id": "A042",
+      "asset_type": "Firewall",
+      "location": "Bengaluru DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133806+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-f1933422",
+    "attributes": {
+      "asset_id": "A043",
+      "asset_type": "Router",
+      "location": "Hyderabad DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133811+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-bad513a2",
+    "attributes": {
+      "asset_id": "A044",
+      "asset_type": "Server",
+      "location": "Mumbai Office",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133816+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-0c3bf09c",
+    "attributes": {
+      "asset_id": "A045",
+      "asset_type": "Laptop",
+      "location": "Bengaluru DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133822+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-22bbd5be",
+    "attributes": {
+      "asset_id": "A046",
+      "asset_type": "Firewall",
+      "location": "Hyderabad DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133827+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-a82aa283",
+    "attributes": {
+      "asset_id": "A047",
+      "asset_type": "Router",
+      "location": "Mumbai Office",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133833+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-6a373092",
+    "attributes": {
+      "asset_id": "A048",
+      "asset_type": "Server",
+      "location": "Bengaluru DC",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133838+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-c2948cac",
+    "attributes": {
+      "asset_id": "A049",
+      "asset_type": "Laptop",
+      "location": "Hyderabad DC",
+      "status": "Under Maintenance"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133843+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "assets.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-c51798e0",
+    "attributes": {
+      "asset_id": "A050",
+      "asset_type": "Firewall",
+      "location": "Mumbai Office",
+      "status": "Active"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.133849+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  }
+]

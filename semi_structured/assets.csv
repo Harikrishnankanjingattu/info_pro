@@ -1,0 +1,51 @@
+asset_id,asset_type,location,status
+A001,Laptop,Hyderabad DC,Under Maintenance
+A002,Firewall,Mumbai Office,Active
+A003,Router,Bengaluru DC,Under Maintenance
+A004,Server,Hyderabad DC,Active
+A005,Laptop,Mumbai Office,Under Maintenance
+A006,Firewall,Bengaluru DC,Active
+A007,Router,Hyderabad DC,Under Maintenance
+A008,Server,Mumbai Office,Active
+A009,Laptop,Bengaluru DC,Under Maintenance
+A010,Firewall,Hyderabad DC,Active
+A011,Router,Mumbai Office,Under Maintenance
+A012,Server,Bengaluru DC,Active
+A013,Laptop,Hyderabad DC,Under Maintenance
+A014,Firewall,Mumbai Office,Active
+A015,Router,Bengaluru DC,Under Maintenance
+A016,Server,Hyderabad DC,Active
+A017,Laptop,Mumbai Office,Under Maintenance
+A018,Firewall,Bengaluru DC,Active
+A019,Router,Hyderabad DC,Under Maintenance
+A020,Server,Mumbai Office,Active
+A021,Laptop,Bengaluru DC,Under Maintenance
+A022,Firewall,Hyderabad DC,Active
+A023,Router,Mumbai Office,Under Maintenance
+A024,Server,Bengaluru DC,Active
+A025,Laptop,Hyderabad DC,Under Maintenance
+A026,Firewall,Mumbai Office,Active
+A027,Router,Bengaluru DC,Under Maintenance
+A028,Server,Hyderabad DC,Active
+A029,Laptop,Mumbai Office,Under Maintenance
+A030,Firewall,Bengaluru DC,Active
+A031,Router,Hyderabad DC,Under Maintenance
+A032,Server,Mumbai Office,Active
+A033,Laptop,Bengaluru DC,Under Maintenance
+A034,Firewall,Hyderabad DC,Active
+A035,Router,Mumbai Office,Under Maintenance
+A036,Server,Bengaluru DC,Active
+A037,Laptop,Hyderabad DC,Under Maintenance
+A038,Firewall,Mumbai Office,Active
+A039,Router,Bengaluru DC,Under Maintenance
+A040,Server,Hyderabad DC,Active
+A041,Laptop,Mumbai Office,Under Maintenance
+A042,Firewall,Bengaluru DC,Active
+A043,Router,Hyderabad DC,Under Maintenance
+A044,Server,Mumbai Office,Active
+A045,Laptop,Bengaluru DC,Under Maintenance
+A046,Firewall,Hyderabad DC,Active
+A047,Router,Mumbai Office,Under Maintenance
+A048,Server,Bengaluru DC,Active
+A049,Laptop,Hyderabad DC,Under Maintenance
+A050,Firewall,Mumbai Office,Active

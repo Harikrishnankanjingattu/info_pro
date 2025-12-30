@@ -1,0 +1,952 @@
+[
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK001",
+    "attributes": {
+      "ticket_id": "TCK001",
+      "product_name": "InsightAI Platform 2",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139459+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK002",
+    "attributes": {
+      "ticket_id": "TCK002",
+      "product_name": "InsightAI Platform 3",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139482+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK003",
+    "attributes": {
+      "ticket_id": "TCK003",
+      "product_name": "InsightAI Platform 4",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139491+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK004",
+    "attributes": {
+      "ticket_id": "TCK004",
+      "product_name": "InsightAI Platform 5",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139498+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK005",
+    "attributes": {
+      "ticket_id": "TCK005",
+      "product_name": "InsightAI Platform 6",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139507+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK006",
+    "attributes": {
+      "ticket_id": "TCK006",
+      "product_name": "InsightAI Platform 7",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139520+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK007",
+    "attributes": {
+      "ticket_id": "TCK007",
+      "product_name": "InsightAI Platform 8",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139533+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK008",
+    "attributes": {
+      "ticket_id": "TCK008",
+      "product_name": "InsightAI Platform 9",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139544+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK009",
+    "attributes": {
+      "ticket_id": "TCK009",
+      "product_name": "InsightAI Platform 10",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139556+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK010",
+    "attributes": {
+      "ticket_id": "TCK010",
+      "product_name": "InsightAI Platform 1",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139579+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK011",
+    "attributes": {
+      "ticket_id": "TCK011",
+      "product_name": "InsightAI Platform 2",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139592+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK012",
+    "attributes": {
+      "ticket_id": "TCK012",
+      "product_name": "InsightAI Platform 3",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139680+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK013",
+    "attributes": {
+      "ticket_id": "TCK013",
+      "product_name": "InsightAI Platform 4",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139691+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK014",
+    "attributes": {
+      "ticket_id": "TCK014",
+      "product_name": "InsightAI Platform 5",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139697+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK015",
+    "attributes": {
+      "ticket_id": "TCK015",
+      "product_name": "InsightAI Platform 6",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139702+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK016",
+    "attributes": {
+      "ticket_id": "TCK016",
+      "product_name": "InsightAI Platform 7",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139707+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK017",
+    "attributes": {
+      "ticket_id": "TCK017",
+      "product_name": "InsightAI Platform 8",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139712+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK018",
+    "attributes": {
+      "ticket_id": "TCK018",
+      "product_name": "InsightAI Platform 9",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139717+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK019",
+    "attributes": {
+      "ticket_id": "TCK019",
+      "product_name": "InsightAI Platform 10",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139722+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK020",
+    "attributes": {
+      "ticket_id": "TCK020",
+      "product_name": "InsightAI Platform 1",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139727+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK021",
+    "attributes": {
+      "ticket_id": "TCK021",
+      "product_name": "InsightAI Platform 2",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139732+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK022",
+    "attributes": {
+      "ticket_id": "TCK022",
+      "product_name": "InsightAI Platform 3",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139737+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK023",
+    "attributes": {
+      "ticket_id": "TCK023",
+      "product_name": "InsightAI Platform 4",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139741+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK024",
+    "attributes": {
+      "ticket_id": "TCK024",
+      "product_name": "InsightAI Platform 5",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139746+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK025",
+    "attributes": {
+      "ticket_id": "TCK025",
+      "product_name": "InsightAI Platform 6",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139750+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK026",
+    "attributes": {
+      "ticket_id": "TCK026",
+      "product_name": "InsightAI Platform 7",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139755+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK027",
+    "attributes": {
+      "ticket_id": "TCK027",
+      "product_name": "InsightAI Platform 8",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139760+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK028",
+    "attributes": {
+      "ticket_id": "TCK028",
+      "product_name": "InsightAI Platform 9",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139764+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK029",
+    "attributes": {
+      "ticket_id": "TCK029",
+      "product_name": "InsightAI Platform 10",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139769+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK030",
+    "attributes": {
+      "ticket_id": "TCK030",
+      "product_name": "InsightAI Platform 1",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139774+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK031",
+    "attributes": {
+      "ticket_id": "TCK031",
+      "product_name": "InsightAI Platform 2",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139778+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK032",
+    "attributes": {
+      "ticket_id": "TCK032",
+      "product_name": "InsightAI Platform 3",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139782+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK033",
+    "attributes": {
+      "ticket_id": "TCK033",
+      "product_name": "InsightAI Platform 4",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139787+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK034",
+    "attributes": {
+      "ticket_id": "TCK034",
+      "product_name": "InsightAI Platform 5",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139792+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK035",
+    "attributes": {
+      "ticket_id": "TCK035",
+      "product_name": "InsightAI Platform 6",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139796+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK036",
+    "attributes": {
+      "ticket_id": "TCK036",
+      "product_name": "InsightAI Platform 7",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139801+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK037",
+    "attributes": {
+      "ticket_id": "TCK037",
+      "product_name": "InsightAI Platform 8",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139805+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK038",
+    "attributes": {
+      "ticket_id": "TCK038",
+      "product_name": "InsightAI Platform 9",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139810+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK039",
+    "attributes": {
+      "ticket_id": "TCK039",
+      "product_name": "InsightAI Platform 10",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139815+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK040",
+    "attributes": {
+      "ticket_id": "TCK040",
+      "product_name": "InsightAI Platform 1",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139819+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK041",
+    "attributes": {
+      "ticket_id": "TCK041",
+      "product_name": "InsightAI Platform 2",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139824+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK042",
+    "attributes": {
+      "ticket_id": "TCK042",
+      "product_name": "InsightAI Platform 3",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139829+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK043",
+    "attributes": {
+      "ticket_id": "TCK043",
+      "product_name": "InsightAI Platform 4",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139834+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK044",
+    "attributes": {
+      "ticket_id": "TCK044",
+      "product_name": "InsightAI Platform 5",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139839+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK045",
+    "attributes": {
+      "ticket_id": "TCK045",
+      "product_name": "InsightAI Platform 6",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139845+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK046",
+    "attributes": {
+      "ticket_id": "TCK046",
+      "product_name": "InsightAI Platform 7",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139852+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK047",
+    "attributes": {
+      "ticket_id": "TCK047",
+      "product_name": "InsightAI Platform 8",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139858+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK048",
+    "attributes": {
+      "ticket_id": "TCK048",
+      "product_name": "InsightAI Platform 9",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "High",
+      "status": "Open"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139863+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK049",
+    "attributes": {
+      "ticket_id": "TCK049",
+      "product_name": "InsightAI Platform 10",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139868+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "it_tickets.csv",
+    "entity_type": "Issue",
+    "entity_id": "TCK050",
+    "attributes": {
+      "ticket_id": "TCK050",
+      "product_name": "InsightAI Platform 1",
+      "issue_summary": "Model latency observed during peak transaction hours",
+      "priority": "Low",
+      "status": "Resolved"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.139874+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  }
+]

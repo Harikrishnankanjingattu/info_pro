@@ -1,0 +1,51 @@
+ticket_id,product_name,issue_summary,priority,status
+TCK001,InsightAI Platform 2,Model latency observed during peak transaction hours,Medium,In Progress
+TCK002,InsightAI Platform 3,Model latency observed during peak transaction hours,Low,Resolved
+TCK003,InsightAI Platform 4,Model latency observed during peak transaction hours,High,Open
+TCK004,InsightAI Platform 5,Model latency observed during peak transaction hours,Medium,In Progress
+TCK005,InsightAI Platform 6,Model latency observed during peak transaction hours,Low,Resolved
+TCK006,InsightAI Platform 7,Model latency observed during peak transaction hours,High,Open
+TCK007,InsightAI Platform 8,Model latency observed during peak transaction hours,Medium,In Progress
+TCK008,InsightAI Platform 9,Model latency observed during peak transaction hours,Low,Resolved
+TCK009,InsightAI Platform 10,Model latency observed during peak transaction hours,High,Open
+TCK010,InsightAI Platform 1,Model latency observed during peak transaction hours,Medium,In Progress
+TCK011,InsightAI Platform 2,Model latency observed during peak transaction hours,Low,Resolved
+TCK012,InsightAI Platform 3,Model latency observed during peak transaction hours,High,Open
+TCK013,InsightAI Platform 4,Model latency observed during peak transaction hours,Medium,In Progress
+TCK014,InsightAI Platform 5,Model latency observed during peak transaction hours,Low,Resolved
+TCK015,InsightAI Platform 6,Model latency observed during peak transaction hours,High,Open
+TCK016,InsightAI Platform 7,Model latency observed during peak transaction hours,Medium,In Progress
+TCK017,InsightAI Platform 8,Model latency observed during peak transaction hours,Low,Resolved
+TCK018,InsightAI Platform 9,Model latency observed during peak transaction hours,High,Open
+TCK019,InsightAI Platform 10,Model latency observed during peak transaction hours,Medium,In Progress
+TCK020,InsightAI Platform 1,Model latency observed during peak transaction hours,Low,Resolved
+TCK021,InsightAI Platform 2,Model latency observed during peak transaction hours,High,Open
+TCK022,InsightAI Platform 3,Model latency observed during peak transaction hours,Medium,In Progress
+TCK023,InsightAI Platform 4,Model latency observed during peak transaction hours,Low,Resolved
+TCK024,InsightAI Platform 5,Model latency observed during peak transaction hours,High,Open
+TCK025,InsightAI Platform 6,Model latency observed during peak transaction hours,Medium,In Progress
+TCK026,InsightAI Platform 7,Model latency observed during peak transaction hours,Low,Resolved
+TCK027,InsightAI Platform 8,Model latency observed during peak transaction hours,High,Open
+TCK028,InsightAI Platform 9,Model latency observed during peak transaction hours,Medium,In Progress
+TCK029,InsightAI Platform 10,Model latency observed during peak transaction hours,Low,Resolved
+TCK030,InsightAI Platform 1,Model latency observed during peak transaction hours,High,Open
+TCK031,InsightAI Platform 2,Model latency observed during peak transaction hours,Medium,In Progress
+TCK032,InsightAI Platform 3,Model latency observed during peak transaction hours,Low,Resolved
+TCK033,InsightAI Platform 4,Model latency observed during peak transaction hours,High,Open
+TCK034,InsightAI Platform 5,Model latency observed during peak transaction hours,Medium,In Progress
+TCK035,InsightAI Platform 6,Model latency observed during peak transaction hours,Low,Resolved
+TCK036,InsightAI Platform 7,Model latency observed during peak transaction hours,High,Open
+TCK037,InsightAI Platform 8,Model latency observed during peak transaction hours,Medium,In Progress
+TCK038,InsightAI Platform 9,Model latency observed during peak transaction hours,Low,Resolved
+TCK039,InsightAI Platform 10,Model latency observed during peak transaction hours,High,Open
+TCK040,InsightAI Platform 1,Model latency observed during peak transaction hours,Medium,In Progress
+TCK041,InsightAI Platform 2,Model latency observed during peak transaction hours,Low,Resolved
+TCK042,InsightAI Platform 3,Model latency observed during peak transaction hours,High,Open
+TCK043,InsightAI Platform 4,Model latency observed during peak transaction hours,Medium,In Progress
+TCK044,InsightAI Platform 5,Model latency observed during peak transaction hours,Low,Resolved
+TCK045,InsightAI Platform 6,Model latency observed during peak transaction hours,High,Open
+TCK046,InsightAI Platform 7,Model latency observed during peak transaction hours,Medium,In Progress
+TCK047,InsightAI Platform 8,Model latency observed during peak transaction hours,Low,Resolved
+TCK048,InsightAI Platform 9,Model latency observed during peak transaction hours,High,Open
+TCK049,InsightAI Platform 10,Model latency observed during peak transaction hours,Medium,In Progress
+TCK050,InsightAI Platform 1,Model latency observed during peak transaction hours,Low,Resolved

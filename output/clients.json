@@ -1,0 +1,952 @@
+[
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-58a01432",
+    "attributes": {
+      "client_id": "C001",
+      "client_name": "Infosys Client Unit 1",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "325000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.114951+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-3f30b8f4",
+    "attributes": {
+      "client_id": "C002",
+      "client_name": "Infosys Client Unit 2",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "350000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115036+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-017739e0",
+    "attributes": {
+      "client_id": "C003",
+      "client_name": "Infosys Client Unit 3",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "375000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115062+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-870bb124",
+    "attributes": {
+      "client_id": "C004",
+      "client_name": "Infosys Client Unit 4",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "400000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115080+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-0bcfc658",
+    "attributes": {
+      "client_id": "C005",
+      "client_name": "Infosys Client Unit 5",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "425000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115094+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-146b135b",
+    "attributes": {
+      "client_id": "C006",
+      "client_name": "Infosys Client Unit 6",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "450000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115106+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-b5d0b290",
+    "attributes": {
+      "client_id": "C007",
+      "client_name": "Infosys Client Unit 7",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "475000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115118+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-449e961b",
+    "attributes": {
+      "client_id": "C008",
+      "client_name": "Infosys Client Unit 8",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "500000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115130+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-39fe7424",
+    "attributes": {
+      "client_id": "C009",
+      "client_name": "Infosys Client Unit 9",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "525000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115141+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-d1cd6c6d",
+    "attributes": {
+      "client_id": "C010",
+      "client_name": "Infosys Client Unit 10",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "550000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115153+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-bfc5661d",
+    "attributes": {
+      "client_id": "C011",
+      "client_name": "Infosys Client Unit 11",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "575000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115166+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-76a2a209",
+    "attributes": {
+      "client_id": "C012",
+      "client_name": "Infosys Client Unit 12",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "600000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115178+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-a49be450",
+    "attributes": {
+      "client_id": "C013",
+      "client_name": "Infosys Client Unit 13",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "625000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115190+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-81fbeb93",
+    "attributes": {
+      "client_id": "C014",
+      "client_name": "Infosys Client Unit 14",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "650000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115206+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-ac39bd77",
+    "attributes": {
+      "client_id": "C015",
+      "client_name": "Infosys Client Unit 15",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "675000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115220+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-8e5e3d91",
+    "attributes": {
+      "client_id": "C016",
+      "client_name": "Infosys Client Unit 16",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "700000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115231+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-5dabd56d",
+    "attributes": {
+      "client_id": "C017",
+      "client_name": "Infosys Client Unit 17",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "725000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115242+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-50f8a4cf",
+    "attributes": {
+      "client_id": "C018",
+      "client_name": "Infosys Client Unit 18",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "750000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115255+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-d450e24a",
+    "attributes": {
+      "client_id": "C019",
+      "client_name": "Infosys Client Unit 19",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "775000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115266+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-75680ba5",
+    "attributes": {
+      "client_id": "C020",
+      "client_name": "Infosys Client Unit 20",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "800000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115278+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-86471d33",
+    "attributes": {
+      "client_id": "C021",
+      "client_name": "Infosys Client Unit 21",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "825000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115289+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-e21309ec",
+    "attributes": {
+      "client_id": "C022",
+      "client_name": "Infosys Client Unit 22",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "850000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115303+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-80975517",
+    "attributes": {
+      "client_id": "C023",
+      "client_name": "Infosys Client Unit 23",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "875000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115316+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-2f32606e",
+    "attributes": {
+      "client_id": "C024",
+      "client_name": "Infosys Client Unit 24",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "900000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115327+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-afbb8f5b",
+    "attributes": {
+      "client_id": "C025",
+      "client_name": "Infosys Client Unit 25",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "925000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115339+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-b6bd6204",
+    "attributes": {
+      "client_id": "C026",
+      "client_name": "Infosys Client Unit 26",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "950000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115353+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-6765f34f",
+    "attributes": {
+      "client_id": "C027",
+      "client_name": "Infosys Client Unit 27",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "975000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115365+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-1d2fe6e6",
+    "attributes": {
+      "client_id": "C028",
+      "client_name": "Infosys Client Unit 28",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "1000000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115376+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-1ea0e800",
+    "attributes": {
+      "client_id": "C029",
+      "client_name": "Infosys Client Unit 29",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "1025000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115389+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-bd635db9",
+    "attributes": {
+      "client_id": "C030",
+      "client_name": "Infosys Client Unit 30",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "1050000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115399+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-279269f9",
+    "attributes": {
+      "client_id": "C031",
+      "client_name": "Infosys Client Unit 31",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "1075000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115413+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-ae4e0537",
+    "attributes": {
+      "client_id": "C032",
+      "client_name": "Infosys Client Unit 32",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "1100000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115426+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-9b5c6c1a",
+    "attributes": {
+      "client_id": "C033",
+      "client_name": "Infosys Client Unit 33",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "1125000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115436+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-2e718862",
+    "attributes": {
+      "client_id": "C034",
+      "client_name": "Infosys Client Unit 34",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "1150000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115449+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-a7e73832",
+    "attributes": {
+      "client_id": "C035",
+      "client_name": "Infosys Client Unit 35",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "1175000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115460+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-2b8d1232",
+    "attributes": {
+      "client_id": "C036",
+      "client_name": "Infosys Client Unit 36",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "1200000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115470+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-852391f0",
+    "attributes": {
+      "client_id": "C037",
+      "client_name": "Infosys Client Unit 37",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "1225000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115481+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-c0e2cc67",
+    "attributes": {
+      "client_id": "C038",
+      "client_name": "Infosys Client Unit 38",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "1250000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115491+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-79be72ea",
+    "attributes": {
+      "client_id": "C039",
+      "client_name": "Infosys Client Unit 39",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "1275000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115537+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-e510c0f9",
+    "attributes": {
+      "client_id": "C040",
+      "client_name": "Infosys Client Unit 40",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "1300000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115552+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-88147c5a",
+    "attributes": {
+      "client_id": "C041",
+      "client_name": "Infosys Client Unit 41",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "1325000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115563+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-38643f0d",
+    "attributes": {
+      "client_id": "C042",
+      "client_name": "Infosys Client Unit 42",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "1350000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115583+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-0aa3fc42",
+    "attributes": {
+      "client_id": "C043",
+      "client_name": "Infosys Client Unit 43",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "1375000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115597+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-02764d8a",
+    "attributes": {
+      "client_id": "C044",
+      "client_name": "Infosys Client Unit 44",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "1400000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115608+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-9e3bfb1e",
+    "attributes": {
+      "client_id": "C045",
+      "client_name": "Infosys Client Unit 45",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "1425000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115618+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-2917e990",
+    "attributes": {
+      "client_id": "C046",
+      "client_name": "Infosys Client Unit 46",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "1450000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115629+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-63382af5",
+    "attributes": {
+      "client_id": "C047",
+      "client_name": "Infosys Client Unit 47",
+      "industry": "Manufacturing",
+      "country": "India",
+      "annual_contract_value_usd": "1475000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115644+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-226b7888",
+    "attributes": {
+      "client_id": "C048",
+      "client_name": "Infosys Client Unit 48",
+      "industry": "BFSI",
+      "country": "India",
+      "annual_contract_value_usd": "1500000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115654+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-12411a8a",
+    "attributes": {
+      "client_id": "C049",
+      "client_name": "Infosys Client Unit 49",
+      "industry": "Healthcare",
+      "country": "India",
+      "annual_contract_value_usd": "1525000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115667+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "clients.csv",
+    "entity_type": "Client",
+    "entity_id": "CLI-3007a5f9",
+    "attributes": {
+      "client_id": "C050",
+      "client_name": "Infosys Client Unit 50",
+      "industry": "Retail",
+      "country": "India",
+      "annual_contract_value_usd": "1550000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.115680+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  }
+]

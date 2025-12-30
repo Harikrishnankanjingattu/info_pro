@@ -1,0 +1,98 @@
+[
+  {
+    "source_type": "structured",
+    "source_name": "company_revenue.csv",
+    "entity_type": "Company_Revenue",
+    "entity_id": "COM-a4c37051",
+    "attributes": {
+      "year": "2019",
+      "revenue_usd": "45000000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.117968+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "company_revenue.csv",
+    "entity_type": "Company_Revenue",
+    "entity_id": "COM-b897ccf4",
+    "attributes": {
+      "year": "2020",
+      "revenue_usd": "53500000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.117991+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "company_revenue.csv",
+    "entity_type": "Company_Revenue",
+    "entity_id": "COM-d3d046a9",
+    "attributes": {
+      "year": "2021",
+      "revenue_usd": "62000000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.117999+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "company_revenue.csv",
+    "entity_type": "Company_Revenue",
+    "entity_id": "COM-4cc46e82",
+    "attributes": {
+      "year": "2022",
+      "revenue_usd": "70500000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.118006+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "company_revenue.csv",
+    "entity_type": "Company_Revenue",
+    "entity_id": "COM-92cbfaeb",
+    "attributes": {
+      "year": "2023",
+      "revenue_usd": "79000000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.118011+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "structured",
+    "source_name": "company_revenue.csv",
+    "entity_type": "Company_Revenue",
+    "entity_id": "COM-b36d2b5e",
+    "attributes": {
+      "year": "2024",
+      "revenue_usd": "87500000"
+    },
+    "relationships": [],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.118017+00:00",
+      "source_confidence": 1.0,
+      "origin_system": "File System"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+From: sanjay.mehta@tcs.com
+To: finance.board@tcs.com
+Subject: Q2 Revenue Performance – InsightAI
+Date: 12-Aug-2025
+
+InsightAI platform revenue crossed USD 18.4 million this quarter driven by BFSI clients including Axis Bank and HDFC Life.
+Operational issues related to inference latency have been addressed by the cloud optimization team.

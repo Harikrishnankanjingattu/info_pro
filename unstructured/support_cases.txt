@@ -1,0 +1,4 @@
+Client: Axis Bank
+Issue: Delayed fraud detection alerts during UPI peak hours
+Resolution: Deployed optimized real-time streaming pipeline and increased Kafka throughput
+Status: Closed

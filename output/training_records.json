@@ -1,0 +1,1152 @@
+[
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-020fd728",
+    "attributes": {
+      "training_id": "TR001",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.143890+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-59ba1a04",
+    "attributes": {
+      "training_id": "TR002",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.143989+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-0f05a6d5",
+    "attributes": {
+      "training_id": "TR003",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144010+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-c91b4446",
+    "attributes": {
+      "training_id": "TR004",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144155+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-d218005a",
+    "attributes": {
+      "training_id": "TR005",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144211+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-4d0eb4b6",
+    "attributes": {
+      "training_id": "TR006",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144307+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-f01d8150",
+    "attributes": {
+      "training_id": "TR007",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144345+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-959b8f12",
+    "attributes": {
+      "training_id": "TR008",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144379+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-90b18037",
+    "attributes": {
+      "training_id": "TR009",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144413+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-b4e19110",
+    "attributes": {
+      "training_id": "TR010",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144445+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-08af3fb5",
+    "attributes": {
+      "training_id": "TR011",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144477+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-5881cf4b",
+    "attributes": {
+      "training_id": "TR012",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144511+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-80220c41",
+    "attributes": {
+      "training_id": "TR013",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144543+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-ab479866",
+    "attributes": {
+      "training_id": "TR014",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144577+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-d947896c",
+    "attributes": {
+      "training_id": "TR015",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144611+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-5aeed3ab",
+    "attributes": {
+      "training_id": "TR016",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144696+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-ae2b94bd",
+    "attributes": {
+      "training_id": "TR017",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144722+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-deb7ec3e",
+    "attributes": {
+      "training_id": "TR018",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144737+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-37e4be5b",
+    "attributes": {
+      "training_id": "TR019",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144749+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-47f31a82",
+    "attributes": {
+      "training_id": "TR020",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144760+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-2b2b58d8",
+    "attributes": {
+      "training_id": "TR021",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144772+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-8847fefb",
+    "attributes": {
+      "training_id": "TR022",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144782+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-5710f0c6",
+    "attributes": {
+      "training_id": "TR023",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144793+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-b1cb6648",
+    "attributes": {
+      "training_id": "TR024",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144804+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-94d215ef",
+    "attributes": {
+      "training_id": "TR025",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144814+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-d26435d4",
+    "attributes": {
+      "training_id": "TR026",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144826+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-45dad2e4",
+    "attributes": {
+      "training_id": "TR027",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144837+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-62509df6",
+    "attributes": {
+      "training_id": "TR028",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144848+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-2ff95158",
+    "attributes": {
+      "training_id": "TR029",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144859+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-7cda24f0",
+    "attributes": {
+      "training_id": "TR030",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144871+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-a9d70a7a",
+    "attributes": {
+      "training_id": "TR031",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144883+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-03ff5326",
+    "attributes": {
+      "training_id": "TR032",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144894+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-c9a96d6a",
+    "attributes": {
+      "training_id": "TR033",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144906+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-c2ac3c01",
+    "attributes": {
+      "training_id": "TR034",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144925+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-37946ae7",
+    "attributes": {
+      "training_id": "TR035",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144940+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-0bb88b67",
+    "attributes": {
+      "training_id": "TR036",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144951+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-c899e631",
+    "attributes": {
+      "training_id": "TR037",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144962+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-912f077f",
+    "attributes": {
+      "training_id": "TR038",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144972+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-93dcddc6",
+    "attributes": {
+      "training_id": "TR039",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144984+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-3ac1db24",
+    "attributes": {
+      "training_id": "TR040",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.144995+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-e52b458c",
+    "attributes": {
+      "training_id": "TR041",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.145006+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-926d79b9",
+    "attributes": {
+      "training_id": "TR042",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.145017+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-e3936063",
+    "attributes": {
+      "training_id": "TR043",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.145027+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-58e65dc0",
+    "attributes": {
+      "training_id": "TR044",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.145037+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-79903d0b",
+    "attributes": {
+      "training_id": "TR045",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.145048+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-339c2247",
+    "attributes": {
+      "training_id": "TR046",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.145058+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-629a84a3",
+    "attributes": {
+      "training_id": "TR047",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.145069+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-12b60407",
+    "attributes": {
+      "training_id": "TR048",
+      "course_name": "Advanced Machine Learning",
+      "department": "Engineering",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-ab0268fb"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.145080+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-828ec4d0",
+    "attributes": {
+      "training_id": "TR049",
+      "course_name": "Cloud Security Compliance",
+      "department": "IT",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-cd32106b"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.145091+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  },
+  {
+    "source_type": "semi_structured",
+    "source_name": "training_records.csv",
+    "entity_type": "Entity",
+    "entity_id": "ENT-43c77e5e",
+    "attributes": {
+      "training_id": "TR050",
+      "course_name": "Enterprise Sales Strategy",
+      "department": "Sales",
+      "completion_date": "2025-02-15"
+    },
+    "relationships": [
+      {
+        "relation": "BELONGS_TO",
+        "target_entity": "DEP-11ff9f68"
+      }
+    ],
+    "metadata": {
+      "ingestion_timestamp": "2025-12-21T09:52:01.145109+00:00",
+      "source_confidence": 0.8,
+      "origin_system": "File System"
+    }
+  }
+]
