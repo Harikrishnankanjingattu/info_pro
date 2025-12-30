@@ -48,8 +48,6 @@ The extracted knowledge graph includes relationships such as:
 - `(Platform)-[:GENERATED_REVENUE]->(Value)`
 - `(Client)-[:USES]->(Platform)`
 - `(Company)-[:INVESTS_IN]->(Technology)`
-
-## 📬 Contact
 **Author**: Harikrishnan
 **Email**: harikanjingattu@gmail.com
 **Repository**: [info_pro](https://github.com/Harikrishnankanjingattu/info_pro)
