@@ -5,7 +5,6 @@ import datetime
 import uuid
 import hashlib
 
-# Configuration
 DATA_DIR = r"C:\Users\Admin\Downloads\ai enterprise"
 OUTPUT_DIR = os.path.join(DATA_DIR, "output")
 STRUCTURED_DIR = os.path.join(DATA_DIR, "structured")
@@ -27,23 +26,21 @@ def get_iso_timestamp():
 
 def normalize_record(source_type, source_name, entity_type, attributes, entity_id=None, relationships=None):
     if entity_id is None:
-        # Fallback if no ID provided, use hash of attributes
+     
         entity_id = generate_id(entity_type[:3].upper(), json.dumps(attributes, sort_keys=True))
     
     if relationships is None:
         relationships = []
 
-    # Infer relationships based on attributes
     if "department" in attributes:
         relationships.append({
             "relation": "BELONGS_TO",
             "target_entity": generate_id("DEP", attributes["department"])
         })
-    
-    # Generic specific logic for known types
+ 
     if entity_type == "Employee":
          if "email" in attributes:
-             # Just an example of data cleaning/normalization
+        
              attributes["email"] = attributes["email"].lower()
 
     return {
@@ -77,12 +74,11 @@ def process_structured():
         with open(filepath, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                # Determine ID
-                # Specific logic for known files
+           
                 entity_id = None
                 if "employee_id" in row:
                     entity_id = row["employee_id"]
-                elif "product_id" in row: # Assumption
+                elif "product_id" in row:
                      entity_id = row["product_id"]
                 
                 normalized = normalize_record(
@@ -154,9 +150,7 @@ def process_unstructured():
                 with open(filepath, 'r', encoding='utf-8') as f:
                     content = f.read()
             elif filename.endswith(".pdf"):
-                # Placeholder for PDF extraction - simplified for this environment
-                # In a real scenario, we'd use pypdf or similar. 
-                # Here we will just create a metadata record saying it's binary/pdf
+            
                 content = "[Binary PDF Content - Timestamp: " + get_iso_timestamp() + "]"
             else:
                 continue
@@ -164,12 +158,12 @@ def process_unstructured():
             print(f"Error reading {filename}: {e}")
             continue
 
-        # Treat the whole file as a document entity
+     
         entity_type = "Document"
         if "policy" in filename.lower(): entity_type = "Policy"
         if "report" in filename.lower(): entity_type = "Report"
         
-        # Split into chunks (paragraphs) for valid granularity if text
+      
         chunks = [c.strip() for c in content.split('\n\n') if c.strip()]
         if not chunks:
             chunks = [content]

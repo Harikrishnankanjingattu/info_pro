@@ -3,114 +3,5070 @@
     "subject": "Employees",
     "relation": "COMPLIES_WITH",
     "object": "ISO 27001",
-    "source": "company_policy.txt"
+    "source": "unstructured/company_policy.txt"
   },
   {
     "subject": "Enterprise Data",
     "relation": "GOVERNED_BY",
     "object": "RBAC",
-    "source": "company_policy.txt"
+    "source": "unstructured/company_policy.txt"
   },
   {
     "subject": "Data Breach",
     "relation": "REPORTED_TO",
     "object": "Information Security Office",
-    "source": "company_policy.txt"
+    "source": "unstructured/company_policy.txt"
   },
   {
     "subject": "sanjay.mehta@tcs.com",
     "relation": "SENT_EMAIL_TO",
     "object": "finance.board@tcs.com",
-    "source": "email_communications.txt"
+    "source": "unstructured/email_communications.txt"
   },
   {
     "subject": "InsightAI",
     "relation": "GENERATED_REVENUE",
     "object": "USD 18.4 Million",
-    "source": "email_communications.txt"
+    "source": "unstructured/email_communications.txt"
   },
   {
     "subject": "Axis Bank",
     "relation": "USES",
     "object": "InsightAI",
-    "source": "email_communications.txt"
+    "source": "unstructured/email_communications.txt"
   },
   {
     "subject": "HDFC Life",
     "relation": "USES",
     "object": "InsightAI",
-    "source": "email_communications.txt"
+    "source": "unstructured/email_communications.txt"
   },
   {
     "subject": "Indian AI Analytics Market",
     "relation": "GROWING_AT",
     "object": "25% CAGR",
-    "source": "industry_reports.txt"
+    "source": "unstructured/industry_reports.txt"
   },
   {
     "subject": "TCS",
     "relation": "INVESTS_IN",
     "object": "Knowledge Graph Platforms",
-    "source": "industry_reports.txt"
+    "source": "unstructured/industry_reports.txt"
   },
   {
     "subject": "Infosys",
     "relation": "INVESTS_IN",
     "object": "Knowledge Graph Platforms",
-    "source": "industry_reports.txt"
+    "source": "unstructured/industry_reports.txt"
   },
   {
     "subject": "Wipro",
     "relation": "INVESTS_IN",
     "object": "Knowledge Graph Platforms",
-    "source": "industry_reports.txt"
+    "source": "unstructured/industry_reports.txt"
   },
   {
     "subject": "CTO",
     "relation": "ATTENDED",
     "object": "Enterprise AI Strategy Review",
-    "source": "meeting_notes.txt"
+    "source": "unstructured/meeting_notes.txt"
   },
   {
     "subject": "Head of Data Science",
     "relation": "ATTENDED",
     "object": "Enterprise AI Strategy Review",
-    "source": "meeting_notes.txt"
+    "source": "unstructured/meeting_notes.txt"
   },
   {
     "subject": "Sales Director",
     "relation": "ATTENDED",
     "object": "Enterprise AI Strategy Review",
-    "source": "meeting_notes.txt"
+    "source": "unstructured/meeting_notes.txt"
   },
   {
     "subject": "InsightAI",
     "relation": "EXPANDING_INTO",
     "object": "Healthcare Diagnostics",
-    "source": "meeting_notes.txt"
+    "source": "unstructured/meeting_notes.txt"
   },
   {
     "subject": "Apollo Hospitals",
     "relation": "DEMANDS",
     "object": "InsightAI",
-    "source": "meeting_notes.txt"
+    "source": "unstructured/meeting_notes.txt"
   },
   {
     "subject": "Fortis Healthcare",
     "relation": "DEMANDS",
     "object": "InsightAI",
-    "source": "meeting_notes.txt"
+    "source": "unstructured/meeting_notes.txt"
   },
   {
     "subject": "Axis Bank",
     "relation": "REPORTED_ISSUE",
     "object": "Delayed fraud detection alerts during UPI peak hours",
-    "source": "support_cases.txt"
+    "source": "unstructured/support_cases.txt"
   },
   {
     "subject": "Delayed fraud detection alerts during UPI peak hours",
     "relation": "RESOLVED_BY",
     "object": "Deployed optimized real-time streaming pipeline and increased Kafka throughput",
-    "source": "support_cases.txt"
+    "source": "unstructured/support_cases.txt"
+  },
+  {
+    "subject": "Infosys Client Unit 1",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 1",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 2",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 2",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 3",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 3",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 4",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 4",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 5",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 5",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 6",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 6",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 7",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 7",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 8",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 8",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 9",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 9",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 10",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 10",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 11",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 11",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 12",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 12",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 13",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 13",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 14",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 14",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 15",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 15",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 16",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 16",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 17",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 17",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 18",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 18",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 19",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 19",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 20",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 20",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 21",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 21",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 22",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 22",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 23",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 23",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 24",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 24",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 25",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 25",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 26",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 26",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 27",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 27",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 28",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 28",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 29",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 29",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 30",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 30",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 31",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 31",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 32",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 32",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 33",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 33",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 34",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 34",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 35",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 35",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 36",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 36",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 37",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 37",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 38",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 38",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 39",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 39",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 40",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 40",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 41",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 41",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 42",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 42",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 43",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 43",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 44",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 44",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 45",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 45",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 46",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 46",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 47",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Manufacturing",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 47",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 48",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "BFSI",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 48",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 49",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Healthcare",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 49",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 50",
+    "relation": "BELONGS_TO_INDUSTRY",
+    "object": "Retail",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Infosys Client Unit 50",
+    "relation": "LOCATED_IN",
+    "object": "India",
+    "source": "structured/clients.csv"
+  },
+  {
+    "subject": "Enterprise AI",
+    "relation": "GENERATED_REVENUE",
+    "object": "45000000 in 2019",
+    "source": "structured/company_revenue.csv"
+  },
+  {
+    "subject": "Enterprise AI",
+    "relation": "GENERATED_REVENUE",
+    "object": "53500000 in 2020",
+    "source": "structured/company_revenue.csv"
+  },
+  {
+    "subject": "Enterprise AI",
+    "relation": "GENERATED_REVENUE",
+    "object": "62000000 in 2021",
+    "source": "structured/company_revenue.csv"
+  },
+  {
+    "subject": "Enterprise AI",
+    "relation": "GENERATED_REVENUE",
+    "object": "70500000 in 2022",
+    "source": "structured/company_revenue.csv"
+  },
+  {
+    "subject": "Enterprise AI",
+    "relation": "GENERATED_REVENUE",
+    "object": "79000000 in 2023",
+    "source": "structured/company_revenue.csv"
+  },
+  {
+    "subject": "Enterprise AI",
+    "relation": "GENERATED_REVENUE",
+    "object": "87500000 in 2024",
+    "source": "structured/company_revenue.csv"
+  },
+  {
+    "subject": "Rohit Kumar 1",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 1",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 2",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 2",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 3",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 3",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 4",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 4",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 5",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 5",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 6",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 6",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 7",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 7",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 8",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 8",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 9",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 9",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 10",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 10",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 11",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 11",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 12",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 12",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 13",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 13",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 14",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 14",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 15",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 15",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 16",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 16",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 17",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 17",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 18",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 18",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 19",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 19",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 20",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 20",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 21",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 21",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 22",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 22",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 23",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 23",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 24",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 24",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 25",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 25",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 26",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 26",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 27",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 27",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 28",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 28",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 29",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 29",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 30",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 30",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 31",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 31",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 32",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 32",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 33",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 33",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 34",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 34",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 35",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 35",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 36",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 36",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 37",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 37",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 38",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 38",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 39",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 39",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 40",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 40",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 41",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 41",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 42",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 42",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 43",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 43",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 44",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 44",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 45",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 45",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 46",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 46",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 47",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 47",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 48",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 48",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 49",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 49",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 50",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 50",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 51",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 51",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 52",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 52",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 53",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 53",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 54",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 54",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 55",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 55",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 56",
+    "relation": "WORKS_IN",
+    "object": "Data Science",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 56",
+    "relation": "HAS_DESIGNATION",
+    "object": "Data Analyst",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 57",
+    "relation": "WORKS_IN",
+    "object": "Sales",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 57",
+    "relation": "HAS_DESIGNATION",
+    "object": "Account Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 58",
+    "relation": "WORKS_IN",
+    "object": "HR",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 58",
+    "relation": "HAS_DESIGNATION",
+    "object": "HR Executive",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 59",
+    "relation": "WORKS_IN",
+    "object": "Finance",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 59",
+    "relation": "HAS_DESIGNATION",
+    "object": "Finance Manager",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 60",
+    "relation": "WORKS_IN",
+    "object": "Engineering",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "Rohit Kumar 60",
+    "relation": "HAS_DESIGNATION",
+    "object": "Senior Engineer",
+    "source": "structured/employees.csv"
+  },
+  {
+    "subject": "InsightAI Platform 1",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 2",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 3",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 4",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 5",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 6",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 7",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 8",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 9",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 10",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 11",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 12",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 13",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 14",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 15",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 16",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 17",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 18",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 19",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 20",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 21",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 22",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 23",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 24",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 25",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 26",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 27",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 28",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 29",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 30",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 31",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 32",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 33",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 34",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 35",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 36",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 37",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 38",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 39",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 40",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 41",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 42",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 43",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 44",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 45",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 46",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 47",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "FinTech AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 48",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "AI Analytics",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 49",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Risk Intelligence",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "InsightAI Platform 50",
+    "relation": "BELONGS_TO_CATEGORY",
+    "object": "Healthcare AI",
+    "source": "structured/products.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 1",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 2",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 1",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 2",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 3",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 2",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 3",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 4",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 3",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 4",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 5",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 4",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 5",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 6",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 5",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 6",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 7",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 6",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 7",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 8",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 7",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 8",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 9",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 8",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 9",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 10",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 9",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 10",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 11",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 10",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 11",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 12",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 11",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 12",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 13",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 12",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 13",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 14",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 13",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 14",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 15",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 14",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 15",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 16",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 15",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 16",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 17",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 16",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 17",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 18",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 17",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 18",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 19",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 18",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 19",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 20",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 19",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 20",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 21",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 20",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 21",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 22",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 21",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 22",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 23",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 22",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 23",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 24",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 23",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 24",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 25",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 24",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 25",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 26",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 25",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 26",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 27",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 26",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 27",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 28",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 27",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 28",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 29",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 28",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 29",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 30",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 29",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 30",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 31",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 30",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 31",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 32",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 31",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 32",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 33",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 32",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 33",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 34",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 33",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 34",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 35",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 34",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 35",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 36",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 35",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 36",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 37",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 36",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 37",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 38",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 37",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 38",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 39",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 38",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 39",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 40",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 39",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 40",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 41",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 40",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 41",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 42",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 41",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 42",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 43",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 42",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 43",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 44",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 43",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 44",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 45",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 44",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 45",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 46",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 45",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 46",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 47",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 46",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 47",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 48",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 47",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 48",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 49",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 48",
+    "relation": "HAS_STATUS",
+    "object": "Active",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 49",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 50",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 49",
+    "relation": "HAS_STATUS",
+    "object": "Completed",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 50",
+    "relation": "INVOLVES_PRODUCT",
+    "object": "InsightAI Platform 1",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "Enterprise AI Deployment 50",
+    "relation": "HAS_STATUS",
+    "object": "On Hold",
+    "source": "structured/projects.csv"
+  },
+  {
+    "subject": "A001",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A001",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A002",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A002",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A003",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A003",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A004",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A004",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A005",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A005",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A006",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A006",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A007",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A007",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A008",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A008",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A009",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A009",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A010",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A010",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A011",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A011",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A012",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A012",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A013",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A013",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A014",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A014",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A015",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A015",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A016",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A016",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A017",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A017",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A018",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A018",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A019",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A019",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A020",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A020",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A021",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A021",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A022",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A022",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A023",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A023",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A024",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A024",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A025",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A025",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A026",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A026",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A027",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A027",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A028",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A028",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A029",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A029",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A030",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A030",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A031",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A031",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A032",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A032",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A033",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A033",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A034",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A034",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A035",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A035",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A036",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A036",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A037",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A037",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A038",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A038",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A039",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A039",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A040",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A040",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A041",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A041",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A042",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A042",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A043",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A043",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A044",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A044",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A045",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A045",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A046",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A046",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A047",
+    "relation": "IS_A",
+    "object": "Router",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A047",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A048",
+    "relation": "IS_A",
+    "object": "Server",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A048",
+    "relation": "LOCATED_AT",
+    "object": "Bengaluru DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A049",
+    "relation": "IS_A",
+    "object": "Laptop",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A049",
+    "relation": "LOCATED_AT",
+    "object": "Hyderabad DC",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A050",
+    "relation": "IS_A",
+    "object": "Firewall",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "A050",
+    "relation": "LOCATED_AT",
+    "object": "Mumbai Office",
+    "source": "semi_structured/assets.csv"
+  },
+  {
+    "subject": "Axis Bank Division 1",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 2",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 1",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 2",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 2",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 3",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 2",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 3",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 3",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 4",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 3",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 4",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 4",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 5",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 4",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 5",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 5",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 6",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 5",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 6",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 6",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 7",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 6",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 7",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 7",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 8",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 7",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 8",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 8",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 9",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 8",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 9",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 9",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 10",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 9",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 10",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 10",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 1",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 10",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 11",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 11",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 2",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 11",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 12",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 12",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 3",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 12",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 13",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 13",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 4",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 13",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 14",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 14",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 5",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 14",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 15",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 15",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 6",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 15",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 16",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 16",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 7",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 16",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 17",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 17",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 8",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 17",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 18",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 18",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 9",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 18",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 19",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 19",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 10",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 19",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 20",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 20",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 1",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 20",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 21",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 21",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 2",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 21",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 22",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 22",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 3",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 22",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 23",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 23",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 4",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 23",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 24",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 24",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 5",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 24",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 25",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 25",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 6",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 25",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 26",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 26",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 7",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 26",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 27",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 27",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 8",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 27",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 28",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 28",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 9",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 28",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 29",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 29",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 10",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 29",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 30",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 30",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 1",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 30",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 31",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 31",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 2",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 31",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 32",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 32",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 3",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 32",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 33",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 33",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 4",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 33",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 34",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 34",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 5",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 34",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 35",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 35",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 6",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 35",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 36",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 36",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 7",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 36",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 37",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 37",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 8",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 37",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 38",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 38",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 9",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 38",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 39",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 39",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 10",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 39",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 40",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 40",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 1",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 40",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 41",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 41",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 2",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 41",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 42",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 42",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 3",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 42",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 43",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 43",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 4",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 43",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 44",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 44",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 5",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 44",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 45",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 45",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 6",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 45",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 46",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 46",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 7",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 46",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 47",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 47",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 8",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 47",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 48",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 48",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 9",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 48",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 49",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 49",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 10",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 49",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 50",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 50",
+    "relation": "INTERESTED_IN",
+    "object": "InsightAI Platform 1",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "Axis Bank Division 50",
+    "relation": "MANAGED_BY",
+    "object": "Rohit Kumar 51",
+    "source": "semi_structured/crm_leads.csv"
+  },
+  {
+    "subject": "TCK001",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 2",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK001",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK002",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 3",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK002",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK003",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 4",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK003",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK004",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 5",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK004",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK005",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 6",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK005",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK006",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 7",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK006",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK007",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 8",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK007",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK008",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 9",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK008",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK009",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 10",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK009",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK010",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 1",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK010",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK011",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 2",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK011",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK012",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 3",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK012",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK013",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 4",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK013",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK014",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 5",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK014",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK015",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 6",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK015",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK016",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 7",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK016",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK017",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 8",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK017",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK018",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 9",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK018",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK019",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 10",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK019",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK020",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 1",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK020",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK021",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 2",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK021",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK022",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 3",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK022",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK023",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 4",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK023",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK024",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 5",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK024",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK025",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 6",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK025",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK026",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 7",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK026",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK027",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 8",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK027",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK028",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 9",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK028",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK029",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 10",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK029",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK030",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 1",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK030",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK031",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 2",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK031",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK032",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 3",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK032",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK033",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 4",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK033",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK034",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 5",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK034",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK035",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 6",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK035",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK036",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 7",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK036",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK037",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 8",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK037",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK038",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 9",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK038",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK039",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 10",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK039",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK040",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 1",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK040",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK041",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 2",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK041",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK042",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 3",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK042",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK043",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 4",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK043",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK044",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 5",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK044",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK045",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 6",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK045",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK046",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 7",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK046",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK047",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 8",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK047",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK048",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 9",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK048",
+    "relation": "HAS_STATUS",
+    "object": "Open",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK049",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 10",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK049",
+    "relation": "HAS_STATUS",
+    "object": "In Progress",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK050",
+    "relation": "RELATES_TO",
+    "object": "InsightAI Platform 1",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TCK050",
+    "relation": "HAS_STATUS",
+    "object": "Resolved",
+    "source": "semi_structured/it_tickets.csv"
+  },
+  {
+    "subject": "TR001",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR001",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR002",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR002",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR003",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR003",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR004",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR004",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR005",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR005",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR006",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR006",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR007",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR007",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR008",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR008",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR009",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR009",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR010",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR010",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR011",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR011",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR012",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR012",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR013",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR013",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR014",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR014",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR015",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR015",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR016",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR016",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR017",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR017",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR018",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR018",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR019",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR019",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR020",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR020",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR021",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR021",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR022",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR022",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR023",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR023",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR024",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR024",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR025",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR025",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR026",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR026",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR027",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR027",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR028",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR028",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR029",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR029",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR030",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR030",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR031",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR031",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR032",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR032",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR033",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR033",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR034",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR034",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR035",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR035",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR036",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR036",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR037",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR037",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR038",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR038",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR039",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR039",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR040",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR040",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR041",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR041",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR042",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR042",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR043",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR043",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR044",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR044",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR045",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR045",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR046",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR046",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR047",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR047",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR048",
+    "relation": "FOR_COURSE",
+    "object": "Advanced Machine Learning",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR048",
+    "relation": "DEPARTMENT",
+    "object": "Engineering",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR049",
+    "relation": "FOR_COURSE",
+    "object": "Cloud Security Compliance",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR049",
+    "relation": "DEPARTMENT",
+    "object": "IT",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR050",
+    "relation": "FOR_COURSE",
+    "object": "Enterprise Sales Strategy",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "TR050",
+    "relation": "DEPARTMENT",
+    "object": "Sales",
+    "source": "semi_structured/training_records.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 1",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 2",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 3",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 4",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 5",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 6",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 7",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 8",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 9",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 10",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 11",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 12",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 13",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 14",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 15",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 16",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 17",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 18",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 19",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 20",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 21",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 22",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 23",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 24",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 25",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 26",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 27",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 28",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 29",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 30",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 31",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 32",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 33",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 34",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 35",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 36",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 37",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 38",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 39",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 40",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 41",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 42",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 43",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 44",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 45",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 46",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 47",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 48",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Cloud Hosting",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 49",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Network Security",
+    "source": "semi_structured/vendors.csv"
+  },
+  {
+    "subject": "Tata Communications Partner 50",
+    "relation": "PROVIDES_SERVICE",
+    "object": "Data Center Services",
+    "source": "semi_structured/vendors.csv"
   }
 ]

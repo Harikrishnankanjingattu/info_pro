@@ -1,9 +1,12 @@
 import os
 import json
 import re
+import csv
 
 # Configuration
 DATA_DIR = r"C:\Users\Admin\Downloads\ai enterprise"
+STRUCTURED_DIR = os.path.join(DATA_DIR, "structured")
+SEMI_STRUCTURED_DIR = os.path.join(DATA_DIR, "semi_structured")
 UNSTRUCTURED_DIR = os.path.join(DATA_DIR, "unstructured")
 OUTPUT_DIR = os.path.join(DATA_DIR, "output")
 
@@ -30,7 +33,6 @@ def extract_triples_from_text(filename, text):
                 if "Fortis Healthcare" in topic:
                     triples.append({"subject": "Fortis Healthcare", "relation": "DEMANDS", "object": "InsightAI"})
 
-    # Email Communications Patterns
     elif "email_communications" in filename:
         sender_match = re.search(r"From:\s*(.*)", text)
         receiver_match = re.search(r"To:\s*(.*)", text)
@@ -47,7 +49,6 @@ def extract_triples_from_text(filename, text):
             for client in clients:
                 triples.append({"subject": client, "relation": "USES", "object": "InsightAI"})
 
-    # Company Policy Patterns
     elif "company_policy" in filename:
         if "ISO 27001" in text:
             triples.append({"subject": "Employees", "relation": "COMPLIES_WITH", "object": "ISO 27001"})
@@ -56,7 +57,6 @@ def extract_triples_from_text(filename, text):
         if "Information Security Office" in text:
             triples.append({"subject": "Data Breach", "relation": "REPORTED_TO", "object": "Information Security Office"})
 
-    # Industry Reports Patterns
     elif "industry_reports" in filename:
         if "Indian AI analytics market" in text:
             triples.append({"subject": "Indian AI Analytics Market", "relation": "GROWING_AT", "object": "25% CAGR"})
@@ -65,7 +65,6 @@ def extract_triples_from_text(filename, text):
             if player in text:
                 triples.append({"subject": player, "relation": "INVESTS_IN", "object": "Knowledge Graph Platforms"})
 
-    # Support Cases Patterns
     elif "support_cases" in filename:
         client_match = re.search(r"Client:\s*(.*)", text)
         issue_match = re.search(r"Issue:\s*(.*)", text)
@@ -77,32 +76,101 @@ def extract_triples_from_text(filename, text):
 
     return triples
 
+def extract_triples_from_structured(filename, filepath):
+    triples = []
+    with open(filepath, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if "employees" in filename:
+                triples.append({"subject": row["full_name"], "relation": "WORKS_IN", "object": row["department"]})
+                triples.append({"subject": row["full_name"], "relation": "HAS_DESIGNATION", "object": row["designation"]})
+            elif "clients" in filename:
+                triples.append({"subject": row["client_name"], "relation": "BELONGS_TO_INDUSTRY", "object": row["industry"]})
+                triples.append({"subject": row["client_name"], "relation": "LOCATED_IN", "object": row["country"]})
+            elif "products" in filename:
+                triples.append({"subject": row["product_name"], "relation": "BELONGS_TO_CATEGORY", "object": row["category"]})
+            elif "projects" in filename:
+                triples.append({"subject": row["project_name"], "relation": "INVOLVES_PRODUCT", "object": row["product_name"]})
+                triples.append({"subject": row["project_name"], "relation": "HAS_STATUS", "object": row["status"]})
+            elif "company_revenue" in filename:
+                triples.append({"subject": "Enterprise AI", "relation": "GENERATED_REVENUE", "object": f"{row['revenue_usd']} in {row['year']}"})
+    return triples
+
+def extract_triples_from_semi_structured(filename, filepath):
+    triples = []
+    with open(filepath, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if "assets" in filename:
+                triples.append({"subject": row["asset_id"], "relation": "IS_A", "object": row["asset_type"]})
+                triples.append({"subject": row["asset_id"], "relation": "LOCATED_AT", "object": row["location"]})
+            elif "crm_leads" in filename:
+                triples.append({"subject": row["company_name"], "relation": "INTERESTED_IN", "object": row["interested_product"]})
+                triples.append({"subject": row["company_name"], "relation": "MANAGED_BY", "object": row["account_manager"]})
+            elif "it_tickets" in filename:
+                triples.append({"subject": row["ticket_id"], "relation": "RELATES_TO", "object": row["product_name"]})
+                triples.append({"subject": row["ticket_id"], "relation": "HAS_STATUS", "object": row["status"]})
+            elif "vendors" in filename:
+                triples.append({"subject": row["vendor_name"], "relation": "PROVIDES_SERVICE", "object": row["service"]})
+            elif "training_records" in filename:
+                triples.append({"subject": row["training_id"], "relation": "FOR_COURSE", "object": row["course_name"]})
+                triples.append({"subject": row["training_id"], "relation": "DEPARTMENT", "object": row["department"]})
+    return triples
+
 def main():
     all_triples = []
     
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
 
-    for filename in os.listdir(UNSTRUCTURED_DIR):
-        if filename.endswith(".txt"):
-            filepath = os.path.join(UNSTRUCTURED_DIR, filename)
-            with open(filepath, 'r', encoding='utf-8') as f:
-                content = f.read()
-                triples = extract_triples_from_text(filename, content)
+    # Process Unstructured
+    if os.path.exists(UNSTRUCTURED_DIR):
+        for filename in os.listdir(UNSTRUCTURED_DIR):
+            if filename.endswith(".txt"):
+                filepath = os.path.join(UNSTRUCTURED_DIR, filename)
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    triples = extract_triples_from_text(filename, content)
+                    for t in triples:
+                        t["source"] = f"unstructured/{filename}"
+                    all_triples.extend(triples)
+
+    # Process Structured
+    if os.path.exists(STRUCTURED_DIR):
+        for filename in os.listdir(STRUCTURED_DIR):
+            if filename.endswith(".csv"):
+                filepath = os.path.join(STRUCTURED_DIR, filename)
+                triples = extract_triples_from_structured(filename, filepath)
                 for t in triples:
-                    t["source"] = filename
+                    t["source"] = f"structured/{filename}"
                 all_triples.extend(triples)
 
+    # Process Semi-Structured
+    if os.path.exists(SEMI_STRUCTURED_DIR):
+        for filename in os.listdir(SEMI_STRUCTURED_DIR):
+            if filename.endswith(".csv"):
+                filepath = os.path.join(SEMI_STRUCTURED_DIR, filename)
+                triples = extract_triples_from_semi_structured(filename, filepath)
+                for t in triples:
+                    t["source"] = f"semi_structured/{filename}"
+                all_triples.extend(triples)
+
+    # Output JSON
     output_file = os.path.join(OUTPUT_DIR, "knowledge_graph_triples.json")
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(all_triples, f, indent=2)
 
-    # Also generate CSV for Neo4j import
+    # Output CSV
     csv_file = os.path.join(OUTPUT_DIR, "knowledge_graph_triples.csv")
     with open(csv_file, 'w', encoding='utf-8') as f:
         f.write("subject,relation,object,source\n")
         for t in all_triples:
-            f.write(f'"{t["subject"]}","{t["relation"]}","{t["object"]}","{t["source"]}"\n')
+            # Simple CSV escaping for quotes
+            sub = str(t["subject"]).replace('"', '""')
+            rel = str(t["relation"]).replace('"', '""')
+            obj = str(t["object"]).replace('"', '""')
+            src = str(t["source"]).replace('"', '""')
+            f.write(f'"{sub}","{rel}","{obj}","{src}"\n')
 
     print(f"Extracted {len(all_triples)} triples.")
     print(f"Saved to {output_file} and {csv_file}")
